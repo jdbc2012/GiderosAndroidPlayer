@@ -29,6 +29,7 @@ public class GiderosPlayer extends Activity implements OnTouchListener
 
 	static private String[] externalClasses = {
 		"com.giderosmobile.android.plugins.googlebilling.GGoogleBilling",
+		"com.giderosmobile.android.plugins.heyzap.GHeyzap"
 	};
 	
 	private GLSurfaceView mGLView;
