@@ -9,11 +9,566 @@ package com.gideros.android;
 
 public final class R {
     public static final class attr {
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int tag=0x7f010000;
     }
     public static final class drawable {
-        public static final int icon=0x7f020000;
+        public static final int banner_l_corner_bottom=0x7f020000;
+        public static final int banner_p_corner_bottom=0x7f020001;
+        public static final int bannertop_l_corner=0x7f020002;
+        public static final int bannertop_p_corner=0x7f020003;
+        public static final int hz_achievements_bubble=0x7f020004;
+        public static final int hz_achievements_dialog=0x7f020005;
+        public static final int hz_achievements_dialog_gradient=0x7f020006;
+        public static final int hz_badge_new=0x7f020007;
+        public static final int hz_bg_stream_feedlette=0x7f020008;
+        public static final int hz_bg_stream_feedlette_hover=0x7f020009;
+        public static final int hz_bg_tile_stream=0x7f02000a;
+        public static final int hz_bg_tile_stream_hover=0x7f02000b;
+        public static final int hz_bubble=0x7f02000c;
+        public static final int hz_button_action_gray=0x7f02000d;
+        public static final int hz_button_action_gray_drawable=0x7f02000e;
+        public static final int hz_button_action_gray_sel=0x7f02000f;
+        public static final int hz_button_action_green=0x7f020010;
+        public static final int hz_button_action_green_drawable=0x7f020011;
+        public static final int hz_button_action_green_sel=0x7f020012;
+        public static final int hz_button_fb_down=0x7f020013;
+        public static final int hz_button_fb_up=0x7f020014;
+        public static final int hz_button_round_green=0x7f020015;
+        public static final int hz_button_round_green_drawable=0x7f020016;
+        public static final int hz_button_round_green_sel=0x7f020017;
+        public static final int hz_button_transparent=0x7f020018;
+        public static final int hz_button_transparent_drawable=0x7f020019;
+        public static final int hz_button_transparent_sel=0x7f02001a;
+        public static final int hz_checkin_dialog_bg=0x7f02001b;
+        public static final int hz_close=0x7f02001c;
+        public static final int hz_cog_down=0x7f02001d;
+        public static final int hz_cog_up=0x7f02001e;
+        public static final int hz_dialog_action_bar=0x7f02001f;
+        public static final int hz_dialog_background=0x7f020020;
+        public static final int hz_dialog_banner_default=0x7f020021;
+        public static final int hz_dialog_border=0x7f020022;
+        public static final int hz_dialog_users_ratings=0x7f020023;
+        public static final int hz_down_arrow=0x7f020024;
+        public static final int hz_fb_login_down=0x7f020025;
+        public static final int hz_fb_login_up=0x7f020026;
+        public static final int hz_getheyzap_down=0x7f020027;
+        public static final int hz_getheyzap_up=0x7f020028;
+        public static final int hz_green_action_button=0x7f020029;
+        public static final int hz_green_action_button_drawable=0x7f02002a;
+        public static final int hz_green_action_button_sel=0x7f02002b;
+        public static final int hz_green_button=0x7f02002c;
+        public static final int hz_green_button_new=0x7f02002d;
+        public static final int hz_green_button_new_down=0x7f02002e;
+        public static final int hz_grouped_stream_bg=0x7f02002f;
+        public static final int hz_heyzap_button=0x7f020030;
+        public static final int hz_heyzap_circle=0x7f020031;
+        public static final int hz_ic_divider=0x7f020032;
+        public static final int hz_icon_check=0x7f020033;
+        public static final int hz_icon_default_badge=0x7f020034;
+        public static final int hz_icon_default_people=0x7f020035;
+        public static final int hz_install_button=0x7f020036;
+        public static final int hz_install_heyzap_button=0x7f020037;
+        public static final int hz_install_heyzap_button_drawable=0x7f020038;
+        public static final int hz_install_heyzap_button_sel=0x7f020039;
+        public static final int hz_invite_grn_btn=0x7f02003a;
+        public static final int hz_leaderboard_bottom_btn_drawable=0x7f02003b;
+        public static final int hz_leaderboard_bottom_btn_sel=0x7f02003c;
+        public static final int hz_leaderboard_bubble_friends=0x7f02003d;
+        public static final int hz_leaderboard_bubble_pedestal=0x7f02003e;
+        public static final int hz_leaderboard_bubble_pedestal_arrow=0x7f02003f;
+        public static final int hz_leaderboard_dialog_x=0x7f020040;
+        public static final int hz_leaderboard_glow_bottom=0x7f020041;
+        public static final int hz_leaderboard_glow_top=0x7f020042;
+        public static final int hz_leaderboard_heyzap_logo=0x7f020043;
+        public static final int hz_leaderboard_highlight=0x7f020044;
+        public static final int hz_leaderboard_in_game_dialog=0x7f020045;
+        public static final int hz_leaderboard_people=0x7f020046;
+        public static final int hz_leaderboard_popover=0x7f020047;
+        public static final int hz_leaderboard_savebg=0x7f020048;
+        public static final int hz_leaderboard_top_logo=0x7f020049;
+        public static final int hz_leaderboard_top_overlay=0x7f02004a;
+        public static final int hz_play_friends_action_button_drawable=0x7f02004b;
+        public static final int hz_play_friends_button=0x7f02004c;
+        public static final int hz_play_friends_button_sel=0x7f02004d;
+        public static final int hz_sdk_checkin=0x7f02004e;
+        public static final int hz_sdk_leaderboard=0x7f02004f;
+        public static final int hz_sdk_z=0x7f020050;
+        public static final int hz_toggle_bg=0x7f020051;
+        public static final int hz_toggle_slider_down=0x7f020052;
+        public static final int hz_toggle_slider_up=0x7f020053;
+        public static final int hz_top_left_button_drawable=0x7f020054;
+        public static final int hz_top_left_pressed_state=0x7f020055;
+        public static final int icon=0x7f020056;
+    }
+    public static final class id {
+        public static final int achievement_description=0x7f06000f;
+        public static final int achievement_icon=0x7f06000b;
+        public static final int achievement_name=0x7f06000e;
+        public static final int achievement_text=0x7f06000d;
+        public static final int big_text=0x7f060014;
+        public static final int blue_fade=0x7f060012;
+        public static final int bottom_button_wrapper=0x7f060005;
+        public static final int bubble=0x7f06001f;
+        public static final int bubble_friends=0x7f060019;
+        public static final int bubble_pedestal=0x7f06001a;
+        public static final int bubble_trophy=0x7f06001d;
+        public static final int button_wrapper=0x7f060015;
+        public static final int buttons=0x7f060011;
+        public static final int close_button=0x7f060007;
+        public static final int close_icon=0x7f06002d;
+        public static final int close_wrapper=0x7f06002c;
+        public static final int container=0x7f060008;
+        public static final int content=0x7f060010;
+        public static final int controller_text=0x7f06001e;
+        public static final int cta=0x7f06000a;
+        public static final int edit_user_name=0x7f060038;
+        public static final int empty_text=0x7f060029;
+        public static final int feed_empty=0x7f060031;
+        public static final int feed_frame=0x7f060003;
+        public static final int feed_frame_wrapper=0x7f060026;
+        public static final int friends_text=0x7f06001b;
+        public static final int glow_bottom=0x7f06003e;
+        public static final int glow_top=0x7f06003f;
+        public static final int green_action_button=0x7f06003a;
+        public static final int header_wrapper=0x7f060001;
+        public static final int icon=0x7f060023;
+        public static final int install_button=0x7f060016;
+        public static final int label=0x7f06003d;
+        public static final int level_name=0x7f060022;
+        public static final int levels_feed_empty=0x7f060028;
+        public static final int levels_feed_frame=0x7f060027;
+        public static final int levels_retry=0x7f06002a;
+        public static final int levels_spinner=0x7f06002b;
+        public static final int light_action_button=0x7f06003c;
+        public static final int light_action_wrapper=0x7f06003b;
+        public static final int linear_layout=0x7f060020;
+        public static final int logo=0x7f06002e;
+        public static final int new_badge_icon=0x7f06000c;
+        public static final int pedestal_text=0x7f06001c;
+        public static final int people=0x7f060018;
+        public static final int picture=0x7f060009;
+        public static final int rank=0x7f060035;
+        public static final int reject_button=0x7f060017;
+        public static final int retry=0x7f060032;
+        public static final int save_button=0x7f060006;
+        public static final int score=0x7f060039;
+        public static final int score_text=0x7f060024;
+        public static final int separator_bottom=0x7f060025;
+        public static final int separator_top=0x7f060021;
+        public static final int show_levels=0x7f060030;
+        public static final int show_levels_wrapper=0x7f06002f;
+        public static final int spinner=0x7f060004;
+        public static final int title=0x7f060002;
+        public static final int user_name=0x7f060037;
+        public static final int user_thumb=0x7f060036;
+        public static final int view_full_button=0x7f060034;
+        public static final int view_full_button_wrapper=0x7f060033;
+        public static final int white_bg=0x7f060013;
+        public static final int wrapper=0x7f060000;
+    }
+    public static final class layout {
+        public static final int hz_achievement_dialog_full=0x7f030000;
+        public static final int hz_achievement_earned_dialog_top=0x7f030001;
+        public static final int hz_achievement_feedlette=0x7f030002;
+        public static final int hz_heyzap_dialog=0x7f030003;
+        public static final int hz_leaderboard_full_overlay=0x7f030004;
+        public static final int hz_leaderboard_in_game_overlay=0x7f030005;
+        public static final int hz_leaderboard_level_feedlette=0x7f030006;
+        public static final int hz_leaderboard_levels_dialog=0x7f030007;
+        public static final int hz_leaderboard_score_dialog_full=0x7f030008;
+        public static final int hz_leaderboard_score_dialog_top=0x7f030009;
+        public static final int hz_leaderboard_user_feedlette=0x7f03000a;
     }
     public static final class string {
-        public static final int app_name=0x7f030000;
+        public static final int achievement_icon=0x7f040003;
+        public static final int achievements=0x7f040000;
+        public static final int app_name=0x7f04000d;
+        public static final int close=0x7f040002;
+        public static final int leaderboard=0x7f040007;
+        public static final int more_dot_dot_dot=0x7f04000b;
+        public static final int new_badge=0x7f040004;
+        public static final int no_fun=0x7f040005;
+        public static final int no_level_load=0x7f040008;
+        public static final int no_score_post=0x7f040009;
+        public static final int play_friends=0x7f040006;
+        public static final int retry=0x7f04000c;
+        public static final int save=0x7f040001;
+        public static final int view_full_leaderboard=0x7f04000a;
     }
+    public static final class style {
+        public static final int HzAchievementFeedLabel=0x7f05002c;
+        public static final int HzAchievementFeedRow=0x7f050029;
+        public static final int HzAchievementFeedSublabel=0x7f05002f;
+        public static final int HzActionGrayButton=0x7f050010;
+        public static final int HzActionGreenButton=0x7f050011;
+        public static final int HzAuthCallToAction=0x7f05001a;
+        /**  Auth splash/login/signup styles 
+         */
+        public static final int HzAuthHeader=0x7f050019;
+        /**  <style name="HzAuthReasonShiney" parent="@style/HzBlock"> 
+ <item name="android:padding">8dp</item> 
+ <item name="android:layout_marginBottom">10dp</item> 
+ <item name="android:background">@drawable/splash_bg_shiney</item> 
+ <item name="android:textColor">#FF000000</item> 
+ <item name="android:textSize">14sp</item> 
+ </style> 
+ <style name="HzAuthCallToActionLight" parent="@style/HzAuthCallToAction"> 
+ <item name="android:gravity">left</item> 
+ <item name="android:textColor">#FF4C566C</item> 
+ <item name="android:layout_marginBottom">3dp</item> 
+ <item name="android:layout_marginTop">5dp</item> 
+ <item name="android:textSize">14sp</item> 
+ </style> 
+         */
+        public static final int HzAuthSellLight=0x7f05001b;
+        public static final int HzBigFeedHeadline=0x7f050021;
+        public static final int HzBlock=0x7f050001;
+        public static final int HzButtonRoundGreen=0x7f050049;
+        /**  In-game popup styles 
+         */
+        public static final int HzCheckinBannerText=0x7f050014;
+        public static final int HzCheckinSettingsIcon=0x7f050035;
+        public static final int HzCheckinSettingsLabel=0x7f050036;
+        /**  <style name="HzCheckinSettingsCheckbox" parent="@style/HzInline"> 
+ <item name="android:button">@android:color/transparent</item> 
+ <item name="android:background">@drawable/checkbox</item> 
+ <item name="android:layout_centerVertical">true</item> 
+ <item name="android:layout_alignParentRight">true</item> 
+ </style> 
+         */
+        public static final int HzCheckinSettingsLine=0x7f050037;
+        /**  Checkin form settings 
+         */
+        public static final int HzCheckinSettingsSection=0x7f050034;
+        public static final int HzCheckinShareHeader=0x7f05003f;
+        /**  <style name="HzCheckinShareCheckinMessage" parent="@style/HzBlock"> 
+ <item name="android:background">@drawable/ac_edit_text</item> 
+ <item name="android:textColor">#737a80</item> 
+ <item name="android:textSize">14sp</item> 
+ <item name="android:layout_marginTop">8dp</item> 
+ <item name="android:layout_height">32dp</item> 
+ <item name="android:layout_marginBottom">7dp</item> 
+ <item name="android:layout_marginRight">6dp</item> 
+ </style> 
+         */
+        public static final int HzCheckinShareShareIcon=0x7f050040;
+        /**  Checkin share dialog 
+ <style name="HzCheckinShareBar" parent="@style/HzBlock"> 
+ <item name="android:layout_height">48dp</item> 
+ <item name="android:background">@drawable/ac_bkg_collapsed</item> 
+ </style> 
+         */
+        public static final int HzCheckinShareZappy=0x7f05003e;
+        public static final int HzDarkTopShadow=0x7f050048;
+        /**  Details page styles 
+         */
+        public static final int HzDetailsHeader=0x7f050018;
+        /**  Dialog styles 
+         */
+        public static final int HzDialogSeparator=0x7f050013;
+        /**  <style name="HzFollowComplete" parent="@style/HzInline"> 
+ <item name="android:src">@drawable/user_details_checkin</item> 
+ </style> 
+ <style name="HzDividerRow" parent="@style/HzBlock"> 
+ <item name="android:background">@drawable/bkg_feedlette_divider</item> 
+ <item name="android:paddingLeft">8dp</item> 
+ <item name="android:gravity">center_vertical</item> 
+ </style> 
+         */
+        public static final int HzDividerText=0x7f050031;
+        /**  <style name="HzErrorDividerRow" parent="@style/HzBlock"> 
+ <item name="android:background">@drawable/bkg_feedlette_divider_error</item> 
+ <item name="android:paddingLeft">8dp</item> 
+ <item name="android:gravity">center_vertical</item> 
+ </style> 
+         */
+        public static final int HzErrorDividerText=0x7f050032;
+        /**  Web Feed styles 
+         */
+        public static final int HzFeed=0x7f05001d;
+        public static final int HzFeedActionTitle=0x7f050022;
+        public static final int HzFeedCheckinCount=0x7f050025;
+        /**  <style name="HzFeedCommentIcon" parent="@style/HzInline"> 
+ <item name="android:layout_marginLeft">18dp</item> 
+ <item name="android:layout_marginRight">4dp</item> 
+ <item name="android:src">@drawable/comment_icon</item> 
+ </style> 
+ <style name="HzFeedLikeIcon" parent="@style/HzInline"> 
+ <item name="android:layout_marginLeft">9dp</item> 
+ <item name="android:layout_marginRight">4dp</item> 
+ <item name="android:src">@drawable/img_like</item> 
+ <item name="android:scaleType">fitXY</item> 
+ <item name="android:layout_width">15dp</item> 
+ <item name="android:layout_height">15dp</item> 
+ </style> 
+         */
+        public static final int HzFeedCommentCount=0x7f050027;
+        /**  <style name="HzActivityStreamItem" parent="@style/HzBlock"> 
+ <item name="android:paddingLeft">8dp</item> 
+ <item name="android:paddingTop">8dp</item> 
+ <item name="android:paddingRight">30dp</item> 
+ <item name="android:paddingBottom">8dp</item> 
+ <item name="android:background">@drawable/activity_stream_item</item> 
+ </style> 
+ <style name="HzActivityStreamItemFrame" parent="@style/HzVerticalBlock"> 
+ <item name="android:background">@drawable/activity_stream_item</item> 
+ </style> 
+ <style name="HzCommentStreamItem" parent="@style/HzBlock"> 
+ <item name="android:padding">8dp</item> 
+ <item name="android:background">@drawable/comment_stream_item</item> 
+ </style> 
+         */
+        public static final int HzFeedDetails=0x7f05001e;
+        public static final int HzFeedHeadline=0x7f050020;
+        public static final int HzFeedLabel=0x7f05002a;
+        public static final int HzFeedMessage=0x7f050024;
+        public static final int HzFeedSublabel=0x7f05002d;
+        public static final int HzFeedTextView=0x7f05001f;
+        public static final int HzFeedUser=0x7f050023;
+        public static final int HzFeedWhen=0x7f050026;
+        /**  <style name="HzUserToggle"> 
+ <item name="android:layout_width">wrap_content</item> 
+ <item name="android:layout_height">wrap_content</item> 
+ <item name="android:layout_centerVertical">true</item> 
+ <item name="android:textOff"></item> 
+ <item name="android:textOn"></item> 
+ <item name="android:background">@drawable/user_toggle_button</item> 
+ </style> 
+         */
+        public static final int HzFollowLoading=0x7f050030;
+        /**  Checkin/Tips form styles 
+         */
+        public static final int HzFormMessage=0x7f050033;
+        /**  Friends found screen styles 
+         */
+        public static final int HzFriendsFoundTitle=0x7f05001c;
+        public static final int HzFull=0x7f050002;
+        public static final int HzGreenActionButton=0x7f05000e;
+        public static final int HzGreenButton=0x7f05000d;
+        public static final int HzHorizontalBlock=0x7f050005;
+        /**  Common styles 
+         */
+        public static final int HzInline=0x7f050000;
+        public static final int HzLargeGreenButton=0x7f05000f;
+        public static final int HzLargeIcon=0x7f05000a;
+        public static final int HzLargeUserImage=0x7f05000b;
+        /**  Load more button for lists 
+         */
+        public static final int HzLoadMoreButton=0x7f050016;
+        public static final int HzLoadMoreButtonLabel=0x7f050017;
+        /**  New common button styles 
+ <style name="HzFacebookLoginButton" parent="@style/HzBlock"> 
+ <item name="android:background">@drawable/btn_facebook_login_drawable</item> 
+ <item name="android:layout_height">47dp</item> 
+ <item name="android:text">Log in with Facebook"</item> 
+ <item name="android:textSize">18dp</item> 
+ <item name="android:textColor">#ffffff</item> 
+ <item name="android:textStyle">bold</item> 
+ <item name="android:shadowColor">#000000</item> 
+ <item name="android:shadowDy">-1</item> 
+ <item name="android:shadowRadius">0.01</item> 
+ <item name="android:gravity">left|center_vertical</item> 
+ </style> 
+ <style name="HzGreenDlgButton" parent="@style/HzLoginButton"> 
+ <item name="android:background">@drawable/dialog_button_primary</item> 
+ <item name="android:paddingLeft">10dp</item> 
+ <item name="android:paddingRight">10dp</item> 
+ <item name="android:textColor">#FFF</item> 
+ <item name="android:textSize">15sp</item> 
+ <item name="android:gravity">center</item> 
+ </style> 
+ <style name="HzDarkDlgButton" parent="@style/HzGreenDlgButton"> 
+ <item name="android:background">@drawable/btn_black_drawable</item> 
+ <item name="android:textStyle">normal</item> 
+ </style> 
+ <style name="HzEditCheckinSettingsButton" parent="@style/HzDarkDlgButton"> 
+ <item name="android:background">@drawable/btn_settings_drawable</item> 
+ </style> 
+ Common spinner styles 
+         */
+        public static final int HzLoadMoreButtonSpinner=0x7f050012;
+        public static final int HzMediumIcon=0x7f050009;
+        public static final int HzNotificationText=0x7f050045;
+        public static final int HzNotificationTitle=0x7f050044;
+        /**  <style name="HzFormSeparator" parent="@style/HzBlock"> 
+ <item name="android:layout_height">2dp</item> 
+ <item name="android:background">@drawable/bkg_pixel_divider</item> 
+ </style> 
+         */
+        public static final int HzPlayFriendsActionButton=0x7f050046;
+        public static final int HzRetroCheckinBannerText=0x7f050015;
+        /**  <style name="HzCheckinShareRow" parent="@style/HzBlock"> 
+ <item name="android:background">@drawable/ac_share_row_bkg</item> 
+ <item name="android:layout_height">36dp</item> 
+ <item name="android:layout_marginLeft">3dp</item> 
+ <item name="android:layout_marginRight">3dp</item> 
+ </style> 
+         */
+        public static final int HzShareRowIcon=0x7f050041;
+        public static final int HzShareRowText=0x7f050042;
+        /**  Common button styles 
+         */
+        public static final int HzSmallGreenButton=0x7f05000c;
+        public static final int HzSmallIcon=0x7f050007;
+        /**  <style name="HzShareRowCheckbox" parent="@style/HzInline"> 
+ <item name="android:button">@android:color/transparent</item> 
+ <item name="android:background">@drawable/ac_checkbox</item> 
+ <item name="android:layout_width">24dp</item> 
+ <item name="android:layout_height">24dp</item> 
+ <item name="android:layout_margin">6dp</item> 
+ </style> 
+ <style name="HzCheckinActionRow" parent="@style/HzBlock"> 
+ <item name="android:background">@drawable/ac_bottom_row</item> 
+ <item name="android:layout_height">48dp</item> 
+ <item name="android:layout_marginLeft">3dp</item> 
+ <item name="android:layout_marginRight">3dp</item> 
+ </style> 
+ <style name="HzCheckinShareExploreButton" parent="@style/HzInline"> 
+ <item name="android:background">@drawable/btn_cs_explore_drawable</item> 
+ <item name="android:layout_height">36dp</item> 
+ <item name="android:layout_width">72dp</item> 
+ <item name="android:layout_marginLeft">6dp</item> 
+ </style> 
+ <style name="HzCheckinShareDoneButton" parent="@style/HzInline"> 
+ <item name="android:background">@drawable/btn_cs_done_drawable</item> 
+ <item name="android:layout_height">36dp</item> 
+ <item name="android:layout_width">72dp</item> 
+ <item name="android:layout_marginRight">6dp</item> 
+ </style> 
+ Login Text Entry Cell 
+ <style name="HzTextEditRow" parent="@style/HzVerticalFull"> 
+ <item name="android:layout_height">wrap_content</item> 
+ <item name="android:layout_width">fill_parent</item> 
+ <item name="android:background">@drawable/bg_form_cell</item> 
+ <item name="android:tileMode">repeat</item> 
+ </style> 
+ <style name="HzLoginButton" parent="@style/HzBlock"> 
+ <item name="android:layout_height">45dp</item> 
+ <item name="android:background">@drawable/btn_login_drawable</item> 
+ <item name="android:text">Log in"</item> 
+ <item name="android:textSize">18dp</item> 
+ <item name="android:textColor">#ffffff</item> 
+ <item name="android:textStyle">bold</item> 
+ <item name="android:shadowColor">#000000</item> 
+ <item name="android:shadowDy">-1</item> 
+ <item name="android:shadowRadius">0.01</item> 
+ <item name="android:gravity">left|center_vertical</item> 
+ </style> 
+ <style name="HzForgotPasswordButton" parent="@style/HzBlock"> 
+ <item name="android:layout_height">45dp</item> 
+ <item name="android:background">@drawable/btn_forgot_password_drawable</item> 
+ <item name="android:text">Forgot your password?"</item> 
+ <item name="android:textSize">18dp</item> 
+ <item name="android:textColor">#ffffff</item> 
+ <item name="android:textStyle">bold</item> 
+ <item name="android:shadowColor">#000000</item> 
+ <item name="android:shadowDy">-1</item> 
+ <item name="android:shadowRadius">0.01</item> 
+ <item name="android:gravity">left|center_vertical</item> 
+ </style> 
+ <style name="HzSignUpButton" parent="@style/HzBlock"> 
+ <item name="android:layout_height">45dp</item> 
+ <item name="android:background">@drawable/btn_sign_up_drawable</item> 
+ </style> 
+ <style name="HzTextEditRowErrorText" parent="@style/HzBlock"> 
+ <item name="android:textColor">#e74911</item> 
+ <item name="android:textSize">14sp</item> 
+ <item name="android:textStyle">bold</item> 
+ <item name="android:layout_marginLeft">14dp</item> 
+ <item name="android:layout_marginTop">5dp</item> 
+ <item name="android:shadowDy">2</item> 
+ <item name="android:shadowColor">#FFFFFF</item> 
+ <item name="android:shadowRadius">0.01</item> 
+ <item name="android:drawableLeft">@drawable/icon_error_arrow_down</item> 
+ <item name="android:drawablePadding">2dp</item> 
+ </style> 
+         */
+        public static final int HzTextEditRowField=0x7f050043;
+        /**  Common icon styles 
+         */
+        public static final int HzTinyIcon=0x7f050006;
+        public static final int HzTutorialIcon=0x7f05003c;
+        public static final int HzTutorialItemHeader=0x7f05003a;
+        /**  <style name="HzTutorialTableRowTop" parent="@style/HzBlock"> 
+ <item name="android:background">@drawable/tbl_row_top</item> 
+ <item name="android:paddingTop">5dp</item> 
+ </style> 
+ <style name="HzTutorialTableRow" parent="@style/HzBlock"> 
+ <item name="android:background">@drawable/tbl_row_middle</item> 
+ <item name="android:paddingTop">2dp</item> 
+ </style> 
+ <style name="HzTutorialTableRowBottom" parent="@style/HzBlock"> 
+ <item name="android:background">@drawable/tbl_row_bottom</item> 
+ <item name="android:paddingTop">2dp</item> 
+ </style> 
+         */
+        public static final int HzTutorialItemStack=0x7f050039;
+        public static final int HzTutorialItemSub=0x7f05003b;
+        /**  <style name="HzTutorialCheckmark" parent="@style/HzBlock"> 
+ <item name="android:paddingTop">12dp</item> 
+ <item name="android:paddingRight">8dp</item> 
+ .                <item name="android:layout_marginRight">3dp</item> 
+ <item name="android:layout_width">38dp</item> 
+ <item name="android:layout_height">38dp</item> 
+ <item name="android:layout_gravity">right</item> 
+ <item name="android:src">@drawable/checkbox_unchecked</item> 
+ </style> 
+         */
+        public static final int HzTutorialProgress=0x7f05003d;
+        /**  Tutorial styles 
+         */
+        public static final int HzTutorialTable=0x7f050038;
+        public static final int HzUserFeedIcon=0x7f050008;
+        public static final int HzUserFeedLabel=0x7f05002b;
+        /**  User feed styles 
+         */
+        public static final int HzUserFeedRow=0x7f050028;
+        public static final int HzUserFeedSublabel=0x7f05002e;
+        public static final int HzVerticalBlock=0x7f050003;
+        public static final int HzVerticalFull=0x7f050004;
+        /**  <style name="HzPlayFriendsOverlayButton" parent="@style/HzInline"> 
+ <item name="android:background">@drawable/play_friends_overlay_button_drawable</item> 
+ <item name="android:paddingBottom">1dp</item> 
+ <item name="android:textSize">12dp</item> 
+ <item name="android:textStyle">bold</item> 
+ </style> 
+         */
+        public static final int HzWhiteBottomShadow=0x7f050047;
+    }
+    public static final class styleable {
+        /** Attributes that can be used with a HzBannerAdView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #HzBannerAdView_tag com.gideros.android:tag}</code></td><td></td></tr>
+           </table>
+           @see #HzBannerAdView_tag
+         */
+        public static final int[] HzBannerAdView = {
+            0x7f010000
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.gideros.android.R.attr#tag}
+          attribute's value can be found in the {@link #HzBannerAdView} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:tag
+        */
+        public static final int HzBannerAdView_tag = 0;
+    };
 }

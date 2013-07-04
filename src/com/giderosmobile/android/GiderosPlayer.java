@@ -24,6 +24,7 @@ public class GiderosPlayer extends Activity implements OnTouchListener
 		System.loadLibrary("lfs");
 		System.loadLibrary("ggooglebilling");
 		System.loadLibrary("lsqlite3");
+		System.loadLibrary("heyzap");
 	}
 
 	static private String[] externalClasses = {
